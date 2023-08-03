@@ -1,0 +1,251 @@
+select{
+    -webkit-appearance: auto!important;
+}
+
+.info-form{
+    padding: 50px 0;
+  }
+  .info-form h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #9a553a;
+    padding-bottom: 15px;
+    margin-top: 35px;
+  }
+  .info-form p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #484848;
+    margin: 10px 0 20px;
+  }
+  .info-form h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: #9a553a;
+    padding-bottom: 15px;
+  }
+  .info-form .select_label{
+    display: block;
+    width: 100%;
+    margin-left: 17px;
+  }
+  .info-form .contact_link{
+    color: #9a553a;
+font-weight: 600;
+  }
+  .info-form .contact_link:hover{
+    color: #9a553a;
+    text-decoration: none;
+  }
+  .frm-btn{
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    margin: 15px;
+    background-color: #9a553a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+  }
+  .form-control:focus{
+    box-shadow: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+  }
+
+  .play-kits{
+    width: 100%;
+    padding: 2rem 0 5rem;
+  }
+
+  .play-kits h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #121212;
+    padding-bottom: 2rem;
+}
+.play-kits h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #9a553a;
+    padding-bottom: 2rem;
+}
+.play-kits p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.how-it-works-area{
+  width: 100%;
+  background:#808080 url(../images/rainbowstripetop_desktop.png) top center no-repeat;
+  background-size: 100%;
+  padding: 8rem 0 2rem;
+}
+.how-it-works-area h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #9a553a;
+    padding-bottom: 2rem;
+}
+.how-it-box{
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 1px 2px 10px #ccc;
+  position: relative;
+  padding: 40px 20px 20px;
+}
+.how-it-box h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #121212;
+    padding-bottom: 10px;
+}
+.how-it-box p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+.h-tag {
+    position: absolute;
+    background: #9a553a;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top: -26px;
+    left: 50%;
+    margin-left: -25px;
+    padding: 6px 0px;
+    text-align: center;
+}
+.h-tag p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.grey-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+.grey-text span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212;
+}
+.explore-area{
+  width: 100%;
+  padding: 5rem 0;
+}
+.explore-area h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #9a553a;
+    padding-bottom: 8px;
+}
+.yellow{
+  color: #e9c123;
+  font-size: 20px!important;
+
+}
+
+.explore-area h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #121212;
+    padding: 2rem 0 5rem;
+}
+
+.explore-menu{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.explore-menu li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.explore-menu li a{
+  font-size: 22px;
+  color: #9a553a;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.explore-menu li a:hover{
+  color: #9a553a;
+  text-decoration: none;
+}
+.months-area{
+  width: 100%;
+}
+
+.months-area h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #9a553a;
+    padding-bottom: 8px;
+}
+.prdtnw-box{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.prdtnw-box h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #121212;
+    padding-bottom: 5px;
+}
+.prdtnw-box p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #808080;
+}
+.text-right1{
+  text-align: right;
+}
+.what-parents{
+  padding: 4rem 0;
+}
+.what-parents h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #9a553a;
+    padding-bottom: 2rem;
+}
+
+  
+@media screen and (max-width: 580px){
+    .frm-btn {
+        width: 93%;
+    }
+}
+
+
+/*  the play kits */
+
+.desk-video video{
+  object-fit: cover;
+    width: 100%;
+    height: 450px;
+}
+.mob-video {
+  display: none;
+}
+
+@media screen and (max-width: 767px){
+  .mob-video {
+      display: block;
+  }
+  .mob-video video{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .desk-video {
+    display: none;
+}
+}
